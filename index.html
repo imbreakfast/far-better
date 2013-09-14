@@ -20,183 +20,195 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        w
-        <header>
-          <h1>Far Better</h1>
+
+        <header class="header" role="banner">
+          <h1 title="Far Better">
+            <span><span class="a-1">F</span><span class="a-2">a</span><span class="a-3">r</span></span>
+            <span><span class="b-1">Be</span><span class="b-2">tt</span><span class="b-3">er</span></span>
+          </h1>
           <p>An attempt at improving upon the "Far Colder" <abbr title="History of Present Illness">HPI</abbr> acronym using logic and pictures. A work-in-progress.</p>
           <p>Have an idea? Email me at karl.santiago@tufts.edu &mdash; Thanks!</p>
+
+          <nav class="nav clearfix" role="navigation">
+            <ul class="list-ui">
+              <li><a href="#sections-method" class="ui--active">Method</a></li>
+              <li><a href="#sections-figures">Figures</a></li>
+              <li><a href="#sections-notes">Notes</a></li>
+            </ul>
+          </nav>
         </header>
-        
-        <hr />
-        
-        <h1>METHOD</h1>
-        
-        <p>Organize HPI data collection around 3 logical themes:</p>
 
-        <h2>Space</h2>
-        <table class="themes">
-          <tbody>
-            <tr>
-              <td class="themes-topics-title">Character</td>
-              <td class="themes-topics-questions">"How would you describe the pain?"</td>
-            </tr>
-            <tr>
-              <td class="themes-topics-title">Location</td>
-              <td class="themes-topics-questions">"Where is the pain located?" or "Where does it start?"</td>
-            </tr>
-            <tr>
-              <td class="themes-topics-title">Radiation</td>
-              <td class="themes-topics-questions">"Does the pain travel elsewhere?"</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="main" role="main">
 
-        <h2>Relation</h2>
-        <table class="themes">
-          <tbody>
-            <tr>
-              <td class="themes-topics-title">Associated Symptoms</td>
-              <td class="themes-topics-questions">"Are there any symptoms related to this pain?"</td>
-            </tr>
-            <tr>
-              <td class="themes-topics-title">Relieving Factors</td>
-              <td class="themes-topics-questions">"Does anything make the pain better?"</td>
-            </tr>
-            <tr>
-              <td class="themes-topics-title">Exacerbating Factors</td>
-              <td class="themes-topics-questions">"Does anything make the pain worse?"</td>
-            </tr>
-          </tbody>
-        </table>
+          <section class="sections sections--active" id="sections-method">
+            <h1>Method</h1>
+            
+            <p>Organize <abbr title="History of Present Illness">HPI</abbr> data collection around 3 logical themes: <strong>Space</strong>, <strong>Time</strong>, and <strong>Relativity</strong>.</p>
 
-        <h2>Time</h2>
-        <table class="themes">
-          <tbody>
-            <tr>
-              <td class="themes-topics-title">Onset</td>
-              <td class="themes-topics-questions">"When did the pain start?" or "When does it start?"</td>
-            </tr>
-            <tr>
-              <td class="themes-topics-title">Duration</td>
-              <td class="themes-topics-questions">"How long does it last?"</td>
-            </tr>
-            <tr>
-              <td class="themes-topics-title">Frequency</td>
-              <td class="themes-topics-questions">"How often does it happen?"</td>
-            </tr>
-          </tbody>
-        </table>
+            <h2>Space</h2>
+            <div class="themes clearfix">
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">1. </span>Character</div>
+                <div class="themes-topics-questions">"How would you describe the pain?"</div>
+              </div>
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">2. </span>Location</div>
+                <div class="themes-topics-questions">"Where is the pain located?" <span class="mod-or">or</span> "Where does it start?"</div>
+              </div>
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">3. </span>Radiation</div>
+                <div class="themes-topics-questions">"Where does the pain travel?"</div>
+              </div>
+            </div>
 
-        <hr />
+            <h2>Time</h2>
+            <div class="themes clearfix">
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">4. </span>Onset</div>
+                <div class="themes-topics-questions">"When did the pain start?" <span class="mod-or">or</span> "When does it start?"</div>
+              </div>
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">5. </span>Duration</div>
+                <div class="themes-topics-questions">"How long does it last?"</div>
+              </div>
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">6. </span>Frequency</div>
+                <div class="themes-topics-questions">"How often does it happen?"</div>
+              </div>
+            </div>
+
+            <h2>Relativity</h2>
+            <div class="themes clearfix">
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">7. </span>Exacerbating Factors</div>
+                <div class="themes-topics-questions">"What makes the pain worse?"</div>
+              </div>
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">8. </span>Relieving Factors</div>
+                <div class="themes-topics-questions">"What makes the pain better?"</div>
+              </div>
+              <div class="themes-topics">
+                <div class="themes-topics-title"><span class="num">9. </span>Associated Symptoms</div>
+                <div class="themes-topics-questions">"What symptoms are related to this pain?"</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="sections" id="sections-figures">
+            <h1>Figures</h1>
+            
+            <h2>Space</h2>
+            <table class="columns-3">
+              <tbody>
+                <tr class="contexts">
+                  <td>
+                    <h3>1. Character</h3>
+                    <p>First, think about a road &mdash; is it narrow, wide, etc?</p>
+                    <p class="qs">Question: "Can you describe the pain?"</p>
+                  </td>
+                  <td>
+                    <h3>2. Location</h3>
+                    <p>Now, think about a starting point on that road.</p>
+                    <p class="qs">Question: "Where's the pain located?" or "Where does it start?"</p>
+                  </td>
+                  <td>
+                    <h3>3. Radiation</h3>
+                    <p>Lastly, think about a destination on that road.</p>
+                    <p class="qs">Question: "Does the pain travel elsewhere?"</p>
+                  </td>
+                </tr>
+                <tr class="figures">
+                  <td>
+                    <img src="img/farcolder-map-1.png" height="350" width="350" alt="A map">
+                  </td>
+                  <td>
+                    <img src="img/farcolder-map-2.png" height="350" width="350" alt="A map">
+                  </td>
+                  <td>
+                    <img src="img/farcolder-map-3.png" height="350" width="350" alt="A map">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2>Relation</h2>
+            <p>(Needs work ...)
+            <table class="columns-3">
+              <tbody>
+                <tr class="contexts">
+                  <td>
+                    <h3>4. Exacerbating Factors</h3>
+                    <p>Stop.</p>
+                    <p class="qs">Question: "Does anything make the pain worse?"</p>
+                  </td>
+                  <td>
+                    <h3>5. Relieving Factors</h3>
+                    <p>Go.</p>
+                    <p class="qs">Question: "Does anything make the pain better?"</p>
+                  </td>
+                  <td>
+                    <h3>6. Associated Symptoms</h3>
+                    <p>Slow down.</p>
+                    <p class="qs">Question: "Are there any symptoms related to this pain?"</p>
+                  </td>
+                </tr>
+                <tr class="figures">
+                  <td>
+                    <img src="img/farcolder-lights-1.png" height="350" width="350" alt="A map">
+                  </td>
+                  <td>
+                    <img src="img/farcolder-lights-2.png" height="350" width="350" alt="A map">
+                  </td>
+                  <td>
+                    <img src="img/farcolder-lights-3.png" height="350" width="350" alt="A map">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <h2>Time</h2>
+            <table>
+              <tbody>
+                <tr class="contexts columns-3">
+                  <td>
+                    <h3>7. Onset</h3>
+                    <p>First, think about a start date on a calendar</p>
+                    <p class="qs">Question: "When did the pain start?" or "When does it start?"</p>
+                  </td>
+                  <td>
+                    <h3>8. Duration</h3>
+                    <p>Now, think about a stop date.</p>
+                    <p class="qs">Question: "How long does it last?"</p>
+                  </td>
+                  <td>
+                    <h3>9. Frequency</h3>
+                    <p>Lastly, think about the frequency btwn those 2 dates.</p>
+                    <p class="qs">Question: "How often does it happen?"</p>
+                  </td>
+                </tr>
+                <tr class="figures">
+                  <td>
+                    <img src="img/farcolder-cal-1.png" height="350" width="350" alt="A calendar">
+                  </td>
+                  <td>
+                    <img src="img/farcolder-cal-2.png" height="350" width="350" alt="A calendar">
+                  </td>
+                  <td>
+                    <img src="img/farcolder-cal-3.png" height="350" width="350" alt="A calendar">
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section class="sections" id="sections-notes">
+            <div>
+              <p>"Far Better" is being made by students at Tufts School of Medicine in Boston. Copyright 2013. Content and code made available by MIT License.</p>
+              <p>Disclaimer: "Far Better" is informational and should not be used for diagnostic purposes.</p>
+            </div>
+          </section>
+
+        </div> <!-- end .main -->
         
-        <h1>FIGURES</h1>
-        
-        <h2>Space</h2>
-        <table>
-          <tbody>
-            <tr class="contexts">
-              <td>
-                <h3>1. Character</h3>
-                <p>First, think about a road &mdash; is it narrow, wide, etc?</p>
-                <p class="qs">Question: "Can you describe the pain?"</p>
-              </td>
-              <td>
-                <h3>2. Location</h3>
-                <p>Now, think about a starting point on that road.</p>
-                <p class="qs">Question: "Where's the pain located?" or "Where does it start?"</p>
-              </td>
-              <td>
-                <h3>3. Radiation</h3>
-                <p>Lastly, think about a destination on that road.</p>
-                <p class="qs">Question: "Does the pain travel elsewhere?"</p>
-              </td>
-            </tr>
-            <tr class="figures">
-              <td>
-                <img src="img/farcolder-map-1.png" height="350" width="350" alt="A map">
-              </td>
-              <td>
-                <img src="img/farcolder-map-2.png" height="350" width="350" alt="A map">
-              </td>
-              <td>
-                <img src="img/farcolder-map-3.png" height="350" width="350" alt="A map">
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <h2>Relation</h2>
-        <p>(Needs work ...)
-        <table>
-          <tbody>
-            <tr class="contexts">
-              <td>
-                <h3>4. Exacerbating Factors</h3>
-                <p>Stop.</p>
-                <p class="qs">Question: "Does anything make the pain worse?"</p>
-              </td>
-              <td>
-                <h3>5. Relieving Factors</h3>
-                <p>Go.</p>
-                <p class="qs">Question: "Does anything make the pain better?"</p>
-              </td>
-              <td>
-                <h3>6. Associated Symptoms</h3>
-                <p>Slow down.</p>
-                <p class="qs">Question: "Are there any symptoms related to this pain?"</p>
-              </td>
-            </tr>
-            <tr class="figures">
-              <td>
-                <img src="img/farcolder-lights-1.png" height="350" width="350" alt="A map">
-              </td>
-              <td>
-                <img src="img/farcolder-lights-2.png" height="350" width="350" alt="A map">
-              </td>
-              <td>
-                <img src="img/farcolder-lights-3.png" height="350" width="350" alt="A map">
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <h2>Time</h2>
-        <table>
-          <tbody>
-            <tr class="contexts">
-              <td>
-                <h3>7. Onset</h3>
-                <p>First, think about a start date on a calendar</p>
-                <p class="qs">Question: "When did the pain start?" or "When does it start?"</p>
-              </td>
-              <td>
-                <h3>8. Duration</h3>
-                <p>Now, think about a stop date.</p>
-                <p class="qs">Question: "How long does it last?"</p>
-              </td>
-              <td>
-                <h3>9. Frequency</h3>
-                <p>Lastly, think about the frequency btwn those 2 dates.</p>
-                <p class="qs">Question: "How often does it happen?"</p>
-              </td>
-            </tr>
-            <tr class="figures">
-              <td>
-                <img src="img/farcolder-cal-1.png" height="350" width="350" alt="A map">
-              </td>
-              <td>
-                <img src="img/farcolder-cal-2.png" height="350" width="350" alt="A map">
-              </td>
-              <td>
-                <img src="img/farcolder-cal-3.png" height="350" width="350" alt="A map">
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <footer>
-          <p>"Far Better" is being made at Tufts University School of Medicine. Copyright 2013.</p>
-          <p>Disclaimer: "Far Better" is meant for informational purposes only and should not be used for diagnostic purposes.</p>
-        </footer>
     </body>
 </html>
