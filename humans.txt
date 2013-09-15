@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Karl Santiago -- Designer/Developer
+
+# CONTRIBUTORS
+
+# THANKS
+
+    Tufts University School of Medicine, Class of 2017 
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery, Modernizr
+    Inkscape
