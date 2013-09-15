@@ -413,6 +413,11 @@ tr {
     width: 75%;
     padding-left: 0;
   }
+
+  .mod-or br {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media print,
