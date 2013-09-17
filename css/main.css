@@ -131,6 +131,12 @@ tr {
   width: 100%;
 }
 
+a,
+a:visited {
+  color: #333;
+  font-weight: bold;
+}
+
 .a-1 { color: #800000; }
 .a-2 { color: #a00; }
 .a-3 { color: #d40000; }
@@ -160,8 +166,9 @@ tr {
 }
 
 .header h1 {
-  font-size: 2.5em;
   margin: .67em 0;
+
+  font-size: 2.5em;
 }
 
 .nav {
@@ -262,6 +269,36 @@ tr {
   font-style: normal;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+.entries {
+  border-bottom: .25em solid #ccc;
+}
+
+.entries hr {
+  border-top-style: dashed;
+}
+
+.entries h3 {
+  color: #333;
+}
+
+.entries p {
+  margin-bottom: 0;
+  line-height: 1.5
+}
+
+.entries p + p {
+  margin-top: 0;
+  text-indent: 1.5em;
+}
+
+.entries p:last-child {
+  margin-bottom: 1em;
+}
+
+.entries:last-child {
+  border: none;
 }
 
 .footer {
@@ -417,6 +454,14 @@ tr {
   .mod-or br {
     display: none;
     visibility: hidden;
+  }
+
+  .entries {
+    max-width: 66.7%;
+  }
+
+  .entries p + p {
+    text-indent: 1.5em;
   }
 }
 
