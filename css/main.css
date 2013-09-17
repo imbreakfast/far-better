@@ -413,6 +413,14 @@ tr {
     width: 75%;
     padding-left: 0;
   }
+<<<<<<< HEAD
+=======
+
+  .mod-or br {
+    display: none;
+    visibility: hidden;
+  }
+>>>>>>> master
 }
 
 @media print,
