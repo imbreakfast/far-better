@@ -133,7 +133,7 @@ tr {
 
 a,
 a:visited {
-  color: #333;
+  color: #222;
   font-weight: bold;
 }
 
@@ -269,6 +269,11 @@ a:visited {
   font-style: normal;
   text-decoration: underline;
   text-transform: uppercase;
+}
+
+.highlighted {
+  background-color: lightyellow;
+  border-bottom: 1px dashed yellow;
 }
 
 .entries {
