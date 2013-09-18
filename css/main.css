@@ -234,6 +234,10 @@ a:visited {
   margin-bottom: 0;
 }
 
+.themes-topics p {
+  margin: 0;
+}
+
 .themes-topics-title {
   font-weight: bold;
 }
