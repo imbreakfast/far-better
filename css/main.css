@@ -422,7 +422,8 @@ a:visited {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 35em),
+       (min-width: 50em) and (-webkit-min-device-pixel-ratio: 1.25) {
     /* Style adjustments for viewports that meet the condition */
   body {
     padding-left: 2em;
