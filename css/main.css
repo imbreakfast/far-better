@@ -426,18 +426,10 @@ a:visited {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 48em) {
-    /* Style adjustments for viewports that meet the condition */
-  body {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 3em;
-
-    font-size: 16px;
-  }
-
-  .header h1 {
-    font-size: 3em;
+@media only screen and (min-width: 35em) {
+  .mod-or br {
+    display: none;
+    visibility: hidden;
   }
 
   .themes-topics {
@@ -452,17 +444,35 @@ a:visited {
   }
 
   .themes-topics-title {
+    width: 40%;
+  }
+
+  .themes-topics-questions {
+    width: 60%;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+    /* Style adjustments for viewports that meet the condition */
+  body {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+
+    font-size: 16px;
+  }
+
+  .header h1 {
+    font-size: 3em;
+  }
+
+  .themes-topics-title {
     width: 25%;
   }
 
   .themes-topics-questions {
     width: 75%;
-    padding-left: 0;
-  }
-
-  .mod-or br {
-    display: none;
-    visibility: hidden;
   }
 
   .entries {
