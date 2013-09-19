@@ -30,181 +30,209 @@
           <p>Have an idea? Email me at karl.santiago@tufts.edu &mdash; Thanks!</p>
 
           <nav class="nav clearfix" role="navigation">
-            <ul class="list-ui">
-              <li><a href="#sections-method" class="ui--active">Method</a></li>
-              <li><a href="#sections-figures">Figures</a></li>
-              <li><a href="#sections-notes">Notes</a></li>
+            <ul class="list-ui" id="js-nav">
+              <li><a href="#sections-methods" class="nav-methods ui--active" id="nav-methods">Method</a></li>
+              <li><a href="#sections-figures" class="nav-figures" id="nav-figures">Figures</a></li>
             </ul>
           </nav>
         </header>
 
         <div class="main" role="main">
 
-          <section class="sections sections--active" id="sections-method">
+          <section class="sections sections--active" id="sections-methods">
             <h1>Method</h1>
             
-            <p>Organize <abbr title="History of Present Illness">HPI</abbr> data collection around 3 logical themes: <strong>Space</strong>, <strong>Time</strong>, and <strong>Relation</strong>.</p>
+            <p>Organize <abbr title="History of Present Illness">HPI</abbr> data collection around 3 logical themes:</p>
 
             <h2>Space</h2>
             <div class="themes clearfix">
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">1. </span>Character</p></div>
-                <div class="themes-topics-questions"><p>"How would you describe the pain?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">1. </span>Character</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"How would you describe the pain?"</p>
+                </div>
               </div>
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">2. </span>Location</p></div>
-                <div class="themes-topics-questions"><p>"Where is the pain located?" <span class="mod-or"><br />or</span> "Where does it start?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">2. </span>Location</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"Where is the pain located?" <span class="mod-or"><br />or</span> "Where does it start?"</p>
+                </div>
               </div>
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">3. </span>Radiation</p></div>
-                <div class="themes-topics-questions"><p>"Where does the pain travel?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">3. </span>Radiation</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"Where does the pain travel?"</p>
+                </div>
               </div>
             </div>
 
             <h2>Time</h2>
             <div class="themes clearfix">
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">4. </span>Onset</p></div>
-                <div class="themes-topics-questions"><p>"When did the pain start?" <span class="mod-or"><br />or</span> "When does it start?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">4. </span>Onset</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"When did the pain start?" <span class="mod-or"><br />or</span> "When does it start?"</p>
+                </div>
               </div>
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">5. </span>Duration</p></div>
-                <div class="themes-topics-questions"><p>"How long does it last?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">5. </span>Duration</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"How long does it last?"</p>
+                </div>
               </div>
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">6. </span>Frequency</p></div>
-                <div class="themes-topics-questions"><p>"How often does it happen?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">6. </span>Frequency</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"How often does it happen?"</p>
+                </div>
               </div>
             </div>
 
             <h2>Relation</h2>
             <div class="themes clearfix">
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">7. </span>Exacerbating Factors</p></div>
-                <div class="themes-topics-questions"><p>"What makes the pain worse?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">7. </span>Exacerbating Factors</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"What makes the pain worse?"</p>
+                </div>
               </div>
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">8. </span>Relieving Factors</p></div>
-                <div class="themes-topics-questions"><p>"What makes the pain better?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">8. </span>Relieving Factors</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"What makes the pain better?"</p>
+                </div>
               </div>
               <div class="themes-topics">
-                <div class="themes-topics-title"><p><span class="num">9. </span>Associated Symptoms</p></div>
-                <div class="themes-topics-questions"><p>"What symptoms are related to this pain?"</p></div>
+                <div class="themes-topics-title">
+                  <h3><span class="num">9. </span>Associated Symptoms</h3>
+                </div>
+                <div class="themes-topics-questions">
+                  <p>"What symptoms are related to this pain?"</p>
+                </div>
               </div>
             </div>
           </section>
 
           <noscript><hr /></noscript>
 
-          <section class="sections" id="sections-figures">
+          <section class="sections sections--inactive" id="sections-figures">
             <h1>Figures</h1>
             
             <h2>Space</h2>
-            <table class="columns-3">
-              <tbody>
-                <tr class="contexts">
-                  <td>
-                    <h3>1. Character</h3>
-                    <p>First, think about a road &mdash; is it narrow, wide, etc?</p>
-                    <p class="qs">Question: "Can you describe the pain?"</p>
-                  </td>
-                  <td>
-                    <h3>2. Location</h3>
-                    <p>Now, think about a starting point on that road.</p>
-                    <p class="qs">Question: "Where's the pain located?" or "Where does it start?"</p>
-                  </td>
-                  <td>
-                    <h3>3. Radiation</h3>
-                    <p>Lastly, think about a destination on that road.</p>
-                    <p class="qs">Question: "Does the pain travel elsewhere?"</p>
-                  </td>
-                </tr>
-                <tr class="figures">
-                  <td>
-                    <img src="img/farcolder-map-1.png" height="350" width="350" alt="A map">
-                  </td>
-                  <td>
-                    <img src="img/farcolder-map-2.png" height="350" width="350" alt="A map">
-                  </td>
-                  <td>
-                    <img src="img/farcolder-map-3.png" height="350" width="350" alt="A map">
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            
-            <h2>Relation</h2>
-            <p>(Needs work ...)
-            <table class="columns-3">
-              <tbody>
-                <tr class="contexts">
-                  <td>
-                    <h3>4. Exacerbating Factors</h3>
-                    <p>Stop.</p>
-                    <p class="qs">Question: "Does anything make the pain worse?"</p>
-                  </td>
-                  <td>
-                    <h3>5. Relieving Factors</h3>
-                    <p>Go.</p>
-                    <p class="qs">Question: "Does anything make the pain better?"</p>
-                  </td>
-                  <td>
-                    <h3>6. Associated Symptoms</h3>
-                    <p>Slow down.</p>
-                    <p class="qs">Question: "Are there any symptoms related to this pain?"</p>
-                  </td>
-                </tr>
-                <tr class="figures">
-                  <td>
-                    <img src="img/farcolder-lights-1.png" height="350" width="350" alt="A map">
-                  </td>
-                  <td>
-                    <img src="img/farcolder-lights-2.png" height="350" width="350" alt="A map">
-                  </td>
-                  <td>
-                    <img src="img/farcolder-lights-3.png" height="350" width="350" alt="A map">
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            
+            <div class="tableau tableau--columns-3">
+              <div class="tableau-r clearfix">
+                <div class="tableau-d">
+                  <h3>1. Character</h3>
+                  <p>First, think about a road &mdash; is it narrow, wide, etc?</p>
+                  <p class="qs">"How would you describe the pain?"</p>
+                </div>
+                <div class="tableau-d">
+                  <h3>2. Location</h3>
+                  <p>Now, think about a starting point on that road.</p>
+                  <p class="qs">"Where is the pain located?" <span class="mod-or"><br />or</span> "Where does it start?"</p>
+                </div>
+                <div class="tableau-d">
+                  <h3>3. Radiation</h3>
+                  <p>Lastly, think about a destination on that road.</p>
+                  <p class="qs">"Where does the pain travel?"</p>
+                </div>
+              </div>
+              <div class="tableau-row clearfix">
+                <div class="tableau-d">
+                  <img src="img/farcolder-map-1.png" height="350" width="350" alt="Space - Maps">
+                </div>
+                <div class="tableau-d">
+                  <img src="img/farcolder-map-2.png" height="350" width="350" alt="Space - Maps">
+                </div>
+                <div class="tableau-d">
+                  <img src="img/farcolder-map-3.png" height="350" width="350" alt="Space - Maps">
+                </div>
+              </div>
+            </div>
+
             <h2>Time</h2>
-            <table>
-              <tbody>
-                <tr class="contexts columns-3">
-                  <td>
-                    <h3>7. Onset</h3>
-                    <p>First, think about a start date on a calendar</p>
-                    <p class="qs">Question: "When did the pain start?" or "When does it start?"</p>
-                  </td>
-                  <td>
-                    <h3>8. Duration</h3>
-                    <p>Now, think about a stop date.</p>
-                    <p class="qs">Question: "How long does it last?"</p>
-                  </td>
-                  <td>
-                    <h3>9. Frequency</h3>
-                    <p>Lastly, think about the frequency btwn those 2 dates.</p>
-                    <p class="qs">Question: "How often does it happen?"</p>
-                  </td>
-                </tr>
-                <tr class="figures">
-                  <td>
-                    <img src="img/farcolder-cal-1.png" height="350" width="350" alt="A calendar">
-                  </td>
-                  <td>
-                    <img src="img/farcolder-cal-2.png" height="350" width="350" alt="A calendar">
-                  </td>
-                  <td>
-                    <img src="img/farcolder-cal-3.png" height="350" width="350" alt="A calendar">
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="tableau tableau--columns-3">
+              <div class="tableau-r clearfix">
+                <div class="tableau-d">
+                  <h3>4. Onset</h3>
+                  <p>First, think about a start date on a calendar</p>
+                  <p class="qs">"When did the pain start?" <span class="mod-or"><br />or</span> "When does it start?"</p>
+                </div>
+                <div class="tableau-d">
+                  <h3>5. Duration</h3>
+                  <p>Now, think about a stop date.</p>
+                  <p class="qs">"How long does it last?"</p>
+                </div>
+                <div class="tableau-d">
+                  <h3>6. Frequency</h3>
+                  <p>Lastly, think about the frequency btwn those 2 dates.</p>
+                  <p class="qs">"How often does it happen?"</p>
+                </div>
+              </div>
+              <div class="tableau-row clearfix">
+                <div class="tableau-d">
+                  <img src="img/farcolder-cal-1.png" height="350" width="350" alt="Time - A calendar">
+                </div>
+                <div class="tableau-d">
+                  <img src="img/farcolder-cal-2.png" height="350" width="350" alt="Time - A calendar">
+                </div>
+                <div class="tableau-d">
+                  <img src="img/farcolder-cal-3.png" height="350" width="350" alt="Time - A calendar">
+                </div>
+              </div>
+            </div>
+
+            <h2>Relation</h2>
+            <p>(Needs work ...)</p>
+            <div class="tableau tableau--columns-3">
+              <div class="tableau-r clearfix">
+                <div class="tableau-d">
+                  <h3>7. Exacerbating Factors</h3>
+                  <p>Stop.</p>
+                  <p class="qs">"What makes the pain worse?"</p>
+                </div>
+                <div class="tableau-d">
+                  <h3>8. Relieving Factors</h3>
+                  <p>Go.</p>
+                  <p class="qs">"What makes the pain better?"</p>
+                </div>
+                <div class="tableau-d">
+                  <h3>9. Associated Symptoms</h3>
+                  <p>Slow down.</p>
+                  <p class="qs">"What symptoms are related to this pain?"</p>
+                </div>
+              </div>
+              <div class="tableau-row clearfix">
+                <div class="tableau-d">
+                  <img src="img/farcolder-lights-1.png" height="350" width="350" alt="Relation - Stoplights">
+                </div>
+                <div class="tableau-d">
+                  <img src="img/farcolder-lights-2.png" height="350" width="350" alt="Relation - Stoplights">
+                </div>
+                <div class="tableau-d">
+                  <img src="img/farcolder-lights-3.png" height="350" width="350" alt="Relation - Stoplights">
+                </div>
+              </div>
+            </div>
           </section>
 
           <hr />
-
           <section class="sections sections--active" id="sections-notes">
             <h1>Notes</h1>
             <section class="entries">
